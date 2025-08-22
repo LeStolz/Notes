@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "a2d47160d0a62f53",
+    "type": "split",
+    "children": [
+      {
+        "id": "daecb5b2a52fdb4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4a88de1323ca7f7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4cb096a9daebb5b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "898104727e5187f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2035cd453e5e4dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "330627657a3062f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "13b274239183b5ce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e4a0fb3ec94ab658",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8e58a21eddf8e62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7398cebcd368ace5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2fb614bca9bf0c7f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5b4c05f51a3f7565",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "db422b12abb0424f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "f4a88de1323ca7f7",
+  "lastOpenFiles": [
+    "HCI/4.2. Quantitative eval.md",
+    "HCI/4.1. Qualitative eval.md",
+    "HCI/4. Evaluation.md",
+    "HCI/3. Prototype.md",
+    "HCI/2. Brainstorm.md",
+    "HCI/1.1. Interpretation.md",
+    "HCI/1. User research.md",
+    "HCI/0.3. Fundamental Concepts.md",
+    "HCI/0.2. Design thinking process.md",
+    "HCI/0.1. Introduction.md",
+    "ADB/2.6. Partition.md",
+    "IMG/Pasted image 20240612203335.png",
+    "ADB/2. Data model + ER.md",
+    "ADB/3. Enhanced ER.md",
+    "ADB/4. Conceptual design.md",
+    "ADB/5. Logical design.md",
+    "ADB/6. Normalization.md",
+    "ADB/7. Physical design.md",
+    "IMG/Pasted image 20240810100442.png",
+    "IMG/Pasted image 20240620120250.png",
+    "IMG/Pasted image 20240810095653.png",
+    "IMG/Pasted image 20240810094659.png",
+    "ADB/2.7. Index.md",
+    "IMG/Pasted image 20240717111447.png",
+    "IMG/Pasted image 20240717110936.png",
+    "IMG/Pasted image 20240717110406.png",
+    "ADB/1. DB Design.md",
+    "KTTN/Info.md",
+    "IMG/Pasted image 20240624103439.png",
+    "ADB/2.5. Trigger.md",
+    "IMG/Pasted image 20240620120102.png",
+    "ADB/0. Introduction.md",
+    "KTTN",
+    "OLD",
+    "ADB",
+    "OLD/MVSA/Canonical Corr Analysis.md",
+    "OLD/MVSA/Matrix differentiation.md",
+    "OLD/MVSA/Factor Analysis.md",
+    "OLD/MVSA/Introduction.md",
+    "IMG",
+    "OLD/MVSA",
+    "OLD/ICA",
+    "OLD/HCI",
+    "OLD/JAVA",
+    "KTNN"
+  ]
+}
