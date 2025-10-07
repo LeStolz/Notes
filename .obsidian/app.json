@@ -5,5 +5,9 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 75
-  }
+  },
+  "newFileLocation": "folder",
+  "newFileFolderPath": "1 - Rough notes",
+  "vimMode": true,
+  "showLineNumber": true
 }
