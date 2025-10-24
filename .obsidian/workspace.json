@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "58ff3c2488cf5e7d",
+        "id": "983eee39c89088b2",
         "type": "tabs",
         "children": [
           {
-            "id": "fe23438712f5db91",
+            "id": "c4587cc2e3645fc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough notes/Image Processing.md",
+                "file": "Main notes/Camera Internal and External Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image Processing"
+              "title": "Camera Internal and External Models"
             }
           }
         ]
@@ -33,6 +33,7 @@
       {
         "id": "898104727e5187f7",
         "type": "tabs",
+        "dimension": 75.60975609756098,
         "children": [
           {
             "id": "f2035cd453e5e4dd",
@@ -75,6 +76,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "d74c8df41c2db9fb",
+        "type": "tabs",
+        "dimension": 24.390243902439025,
+        "children": [
+          {
+            "id": "a7e855cbf5e3a447",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - Rough notes/Histogram-based Image Segmentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Histogram-based Image Segmentation"
             }
           },
           {
@@ -157,63 +176,63 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "graph:Open graph view": true,
+      "obsidian-excalidraw-plugin:Create new drawing": true
     }
   },
-  "active": "fe23438712f5db91",
+  "active": "c4587cc2e3645fc1",
   "lastOpenFiles": [
-    "Others/Sketches/Drawing 2025-10-05 21.48.59.excalidraw.md",
-    "1 - Rough notes/Image Processing.md",
-    "Others/Sketches/Drawing 2025-10-05 22.04.34.excalidraw.md",
-    "Others/Sketches/Drawing 2025-10-05 22.02.01.excalidraw.md",
-    "Others/Sketches/Drawing 2025-09-24 03.36.47.excalidraw.md",
-    "1 - Rough notes/ML.md",
-    "3 - Main notes/Digital Media Contents & Data representation.md",
-    "Others/Images/Pasted image 20251005204917.png",
-    "Others/Templates/Main note.md",
-    "1 - Rough notes/HCI Brainstorm.md",
-    "3 - Tags/HCI.md",
-    "3 - Main notes",
+    "Rough notes/Bayes Classifier.md",
+    "Rough notes/Camera Modelisation.md",
+    "Others/Attachments/Image Distortion.png",
+    "Main notes/Camera Internal and External Models.md",
+    "Others/Attachments/Camera Model.png",
+    "Others/Attachments/Inversed vs Non-inversed Camera Model.md",
+    "Rough notes/Homogenous Coordinates.md",
+    "Others/Attachments/Pinhole vs Real.md",
+    "Others/Attachments/Calibration.md",
+    "Rough notes/The H in HCI.md",
+    "Rough notes/Design Thinking.md",
+    "Main notes/Human-Computer Interaction.md",
+    "Others/Attachments/Design Thinking Apple.png",
+    "Rough notes/User Research.md",
+    "Rough notes/User Research Interpretation.md",
+    "Main notes/VR Tasks.md",
+    "Main notes/Application and Research of Virtual Reality.md",
+    "Others/Templates/Template.md",
+    "Main notes/Virtual Reality.md",
+    "Main notes/History of Virtual Reality.md",
+    "Others/Attachments/History of VR.png",
+    "1 - Rough notes/VR Engine.md",
+    "3 - Main notes/VR Engine.md",
+    "Rough notes/3D Transformation Matrices.md",
+    "Rough notes/Modeling.md",
+    "Rough notes/Visual Feedback.md",
+    "Main notes/Image Histogram.md",
+    "Rough notes/Augmented Reality.md",
+    "Main notes/Extended Reality.md",
+    "Others/Sketches/First Virtual Reality Devices.md",
+    "Others/Attachments/Visual Augmentations.png",
+    "Others/Attachments/Reality - Virtuality Continuum.png",
+    "Others/Attachments/Bimodal Histogram.png",
+    "1 - Rough notes/Untitled.base",
+    "Others/Attachments/Local neighbors.png",
+    "Others/Attachments/Local window.png",
+    "Others/Attachments/Structured Grid Data.png",
+    "1 - Rough notes/Untitled 1.base",
+    "Main notes",
     "Others/Templates",
     "3 - Tags",
     "Others",
-    "1 - Rough notes/HCI Quantitative eval.md",
-    "1 - Rough notes/HCI Qualitative eval.md",
-    "1 - Rough notes/HCI Evaluation.md",
-    "1 - Rough notes/HCI Prototype.md",
-    "1 - Rough notes/HCI Interpretation.md",
-    "1 - Rough notes/HCI User research.md",
-    "1 - Rough notes/HCI Fundamental Concepts.md",
-    "1 - Rough notes/HCI Design thinking process.md",
-    "1 - Rough notes/HCI Introduction.md",
     "2 - Source material",
-    "1 - Rough notes",
-    "Others/Images/Pasted image 20240614054257.png",
-    "Images/Pasted image 20240611205301.png",
-    "Others/Images/Pasted image 20240418122645.png",
-    "Images/Pasted image 20240605132006.png",
-    "Images/Pasted image 20240605040902.png",
-    "Images/Pasted image 20240501042618.png",
-    "Others/Images/Pasted image 20240418063720.png",
-    "Images/Pasted image 20240501013558.png",
-    "Others/Images/Pasted image 20240417041528.png",
+    "Rough notes",
     "Computer Vision",
-    "Others/Sketches",
-    "ML",
-    "ADB/2.6. Partition.md",
-    "ADB/2. Data model + ER.md",
-    "ADB/3. Enhanced ER.md",
-    "ADB/4. Conceptual design.md",
-    "ADB/5. Logical design.md",
-    "ADB/6. Normalization.md",
-    "ADB/7. Physical design.md",
-    "KTTN"
+    "Others/Sketches"
   ]
 }

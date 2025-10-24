@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "showRibbon": false,
+  "cssTheme": "Things"
 }

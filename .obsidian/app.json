@@ -9,5 +9,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "1 - Rough notes",
   "vimMode": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "attachmentFolderPath": "Others/Attachments"
 }
