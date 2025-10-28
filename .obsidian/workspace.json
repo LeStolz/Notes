@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "983eee39c89088b2",
+        "id": "891c064ea9c2abb3",
         "type": "tabs",
         "children": [
           {
-            "id": "c4587cc2e3645fc1",
+            "id": "90a374c5c53235b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main notes/Camera Internal and External Models.md",
+                "file": "Rough notes/Differential Geometry.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Camera Internal and External Models"
+              "title": "Differential Geometry"
             }
           }
         ]
@@ -33,7 +33,6 @@
       {
         "id": "898104727e5187f7",
         "type": "tabs",
-        "dimension": 75.60975609756098,
         "children": [
           {
             "id": "f2035cd453e5e4dd",
@@ -73,23 +72,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d74c8df41c2db9fb",
-        "type": "tabs",
-        "dimension": 24.390243902439025,
-        "children": [
-          {
-            "id": "a7e855cbf5e3a447",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
             }
           }
         ]
@@ -186,45 +168,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": true
     }
   },
-  "active": "c4587cc2e3645fc1",
+  "active": "90a374c5c53235b6",
   "lastOpenFiles": [
-    "Rough notes/Bayes Classifier.md",
-    "Rough notes/Camera Modelisation.md",
-    "Others/Attachments/Image Distortion.png",
-    "Main notes/Camera Internal and External Models.md",
-    "Others/Attachments/Camera Model.png",
-    "Others/Attachments/Inversed vs Non-inversed Camera Model.md",
-    "Rough notes/Homogenous Coordinates.md",
-    "Others/Attachments/Pinhole vs Real.md",
-    "Others/Attachments/Calibration.md",
-    "Rough notes/The H in HCI.md",
-    "Rough notes/Design Thinking.md",
-    "Main notes/Human-Computer Interaction.md",
-    "Others/Attachments/Design Thinking Apple.png",
-    "Rough notes/User Research.md",
-    "Rough notes/User Research Interpretation.md",
     "Main notes/VR Tasks.md",
-    "Main notes/Application and Research of Virtual Reality.md",
-    "Others/Templates/Template.md",
     "Main notes/Virtual Reality.md",
-    "Main notes/History of Virtual Reality.md",
-    "Others/Attachments/History of VR.png",
-    "1 - Rough notes/VR Engine.md",
-    "3 - Main notes/VR Engine.md",
-    "Rough notes/3D Transformation Matrices.md",
-    "Rough notes/Modeling.md",
-    "Rough notes/Visual Feedback.md",
+    "Main notes/Variance and Covariance.md",
+    "Main notes/Salient Information (Visual Feature).md",
+    "Main notes/Quaternion.md",
+    "Main notes/PDF.md",
+    "Main notes/Image Understanding Paradigms.md",
+    "Main notes/Image Segmentation & Classification.md",
+    "Main notes/Image Processing Model.md",
+    "Main notes/Image Processing.md",
+    "Main notes/Image Noise.md",
     "Main notes/Image Histogram.md",
-    "Rough notes/Augmented Reality.md",
+    "Main notes/Human-Computer Interaction.md",
+    "Main notes/Homogenous Coordinates.md",
+    "Main notes/History of Virtual Reality.md",
+    "Main notes/Histogram-based Image Segmentation.md",
+    "Main notes/Global Image Enhancement.md",
+    "Main notes/Fourier Transform.md",
+    "Main notes/Fast Fourier Transform.md",
     "Main notes/Extended Reality.md",
-    "Others/Sketches/First Virtual Reality Devices.md",
+    "Main notes/Digital Media Contents & Data representation.md",
+    "Main notes/Convolution.md",
+    "Main notes/Color-based Image Segmentation.md",
+    "Main notes/Camera Models.md",
+    "Main notes/Camera Modelisation.md",
+    "Main notes/Camera Model Parameters.md",
+    "Others/Attachments/Affine Camera Models.png",
+    "Others/Attachments/Camera Distortion.png",
+    "Others/Attachments/Image Distortion.png",
+    "Others/Attachments/Camera Model.png",
+    "Others/Attachments/Design Thinking Apple.png",
+    "Others/Attachments/History of VR.png",
     "Others/Attachments/Visual Augmentations.png",
     "Others/Attachments/Reality - Virtuality Continuum.png",
     "Others/Attachments/Bimodal Histogram.png",
     "1 - Rough notes/Untitled.base",
     "Others/Attachments/Local neighbors.png",
-    "Others/Attachments/Local window.png",
-    "Others/Attachments/Structured Grid Data.png",
     "1 - Rough notes/Untitled 1.base",
     "Main notes",
     "Others/Templates",
@@ -233,6 +215,6 @@
     "2 - Source material",
     "Rough notes",
     "Computer Vision",
-    "Others/Sketches"
+    "Others/Attachments/Sketches"
   ]
 }

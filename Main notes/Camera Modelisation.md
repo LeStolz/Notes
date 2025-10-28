@@ -16,9 +16,20 @@
 - Real camera (wider than a point, a circle, thus more light) => Blurry => Use lens.
 - Using lens => Spherical and chromatic aberrations, radial distortions (cushion, barrel)
 ![[Pinhole vs Real]]
-# [[Camera Internal and External Models]]
+# [[Camera Model Parameters]]
 
 # Image distortion
 ## Radial distortion (Cushion or Barrel)
 Because lens are imperfect. Distortion worse at the borders.
 ![[Image Distortion.png]]
+![[Camera Distortion.png]]
+Assume that the [[Camera Model Parameters|camera model]] is linear, we have the distortion of points $(u,v)$ on the screen:
+$$
+u=\alpha_{u}x+u_{0}+\delta_{u}
+$$
+$$
+v=\alpha_{v}x+v_{0}+\delta_{v}
+$$
+Where:
+$$\delta_{u}=k((u-u_{0})^2+(v-v_{0})^2)(u-u_{0})$$
+$$\delta_{v}=k((u-u_{0})^2+(v-v_{0})^2)(v-v_{0})$$

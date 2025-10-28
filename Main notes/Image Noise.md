@@ -4,7 +4,7 @@
 
 Denoising is often used in the preprocessing step, before any [[Image Segmentation & Classification|segmentation]] *or* can be integrated into segmentation => robust segmentation
 # Denoising
-- Deblurring / (Contrast) Enhancement. ex: histogram equalization
+- Deblurring / (Contrast) [[Global Image Enhancement]]. ex: histogram equalization
 - Photometric calibration: Find relationship between intensity recorded by a camera and a light source in the real world, making measurements better.
 - Statistics & [[Machine Learning]] are used for modeling & dealing with noise:
   *Hard assignment* to *disjoint intervals* (i.e. dividing the intensity range $[0\dots255]$ into $[0\dots 50], [51\dots 150],\dots$ to represent an object) is replaced by *probabilistic/statistical assignment* to *overlapping clusters*

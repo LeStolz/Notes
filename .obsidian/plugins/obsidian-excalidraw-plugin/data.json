@@ -1,9 +1,9 @@
 {
-  "folder": "Others/Sketches",
+  "folder": "Others/Attachments",
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
-  "templateFilePath": "Excalidraw/Template.excalidraw",
+  "templateFilePath": "Others/Templates/DrawingTemplate.md",
   "scriptFolderPath": "Excalidraw/Scripts",
   "compress": true,
   "decompressForMDView": false,
