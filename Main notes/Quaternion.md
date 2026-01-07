@@ -51,3 +51,13 @@ $$
 u'=u_{1}+\cos \theta u_{2}+\sin \theta u_{0}
 $$
 Where:  $u_{1}=proj(u,v)$; $u_{2}=proj(u,v_{\perp})$; $u_{0}=u\times v$
+## Quaternion as matrix
+$$
+R(q)=
+\begin{bmatrix}
+a & -b & -c & -d \\
+b & a & -d & c \\
+c & d & a & -b \\
+d & -c & b & a
+\end{bmatrix}
+$$

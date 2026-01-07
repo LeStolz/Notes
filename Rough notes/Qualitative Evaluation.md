@@ -1,103 +1,108 @@
+2026-01-03 12:55
+
+#HCI 
+
+>
 # Naturalistic approach
-- Observation occurs in realistic setting
-- Problems:
-	- Hard to arrange and do
-	- Time consuming
-	- May not generalize
+Observation occurs in realistic setting
+Problems:
+- Hard to arrange and do
+- Time consuming
+- May not generalize
 # Usability engineering
-- Is the test result relevant to the usability of real products in real use outside of lab?
-- Problems:
-	- Non-typical users
-	- Non-typical tasks
-	- Different physical environment
-	- Different social context
-- Partial Solution:
-	- Use real users
-	- Task-centered system design tasks
-	- Environment similar to real situation
+Is the test result relevant to the usability of real products in real use outside of lab?
+Problems:
+- Non-typical users
+- Non-typical tasks
+- Different physical environment
+- Different social context
+Partial Solution:
+- Use real users
+- Task-centered system design tasks
+- Environment similar to real situation
 # Discount usability evaluation
-- Low cost methods to gather usability problems
-- Qualitative:
-	- Observe interactions 
-	- Gather explanations
-	- Produces description
-	- Anecdotes, transcripts, problem areas, critical incidents…
-- Quantitative:
-	- Count, log, measure user actions
-	- Speed, error rate, counts of activities
-- Must turn qualitative (words) into quantitative (numbers).
-- Methods:
-	- Inspection
-	- Extracting the conceptual model
-	- Direct observation:
-		- think-aloud
-		- constructive interaction
-		- Retrospective Think Aloud
-	- Query techniques (interviews and questionnaires)
-	- Continuous evaluation (user feedback and field studies)
+Low cost methods to gather usability problems
+Qualitative:
+- Observe interactions 
+- Gather explanations
+- Produces description
+- Anecdotes, transcripts, problem areas, critical incidents…
+Quantitative:
+- Count, log, measure user actions
+- Speed, error rate, counts of activities
+Must turn qualitative (words) into quantitative (numbers).
+Methods:
+- Inspection
+- Extracting the conceptual model
+- Direct observation:
+	- think-aloud
+	- constructive interaction
+	- Retrospective Think Aloud
+- Query techniques (interviews and questionnaires)
+- Continuous evaluation (user feedback and field studies)
 ## Inspection
-- Designer tries it: Does it “feel right”?
-- Benefits: Catch major problems early
-- Problems: not reliable, not valid, intuition can be wrong.
-- Methods:
-	- Task centered walkthroughs
-	- Heuristic evaluation
+Designer tries it: Does it “feel right”?
+Benefits: Catch major problems early
+Problems: not reliable, not valid, intuition can be wrong.
+Methods:
+- Task centered walkthroughs
+- Heuristic evaluation
 ### Usability Heuristic Evaluation
-- “Rules of thumb” describing features of usable systems
-- Pros:
-	- Easy and inexpensive
-	- No need users
-	- Catch many design flaws
-- Cons: 
-	- Not a simple checklist
-	- Cannot assess how well the interface will address user goals
-- H1-1: Simple and natural dialog
-- H1-2: Speak the users’ language
-- H1-3: Minimize users’ memory load
-- H1-5: Feedback
-- H1-6: Clearly marked exits:
-	- Cancel button or Esc
-	- Undo
-- H1-7: Shortcuts
-- H1-8: Precise & constructive error messages
-- H1-10: Help and documentation
-	- Easy to search
-	- Focused on the user’s task
-	- List concrete steps to carry out but not too long
-- H2-1: Visibility of system status
-- H2-2: Match system and real world
-- H2-3: User control and freedom
-- H2-4: Consistency and standards
-- H2-5: Error prevention
-	- Don't allow typing of invalid input + Describe input clearly
-- H2-6: Recognition rather than recall
-- H2-7: Flexibility and efficiency of use
-	- Accelerators, Mneumonics, macros
-- H2-8: Aesthetic and minimalist design
-	- No irrelevant information in dialogues
-- H2-9: Help users recognize, diagnose and recover from errors
-	- ![[Good UI Example.png]]
+“Rules of thumb” describing features of usable systems
+Pros:
+- Easy and inexpensive
+- No need users
+- Catch many design flaws
+Cons: 
+- Not a simple checklist
+- Cannot assess how well the interface will address user goals
+H1-1: Simple and natural dialog
+H1-2: Speak the users’ language
+H1-3: Minimize users’ memory load
+H1-5: Feedback
+H1-6: Clearly marked exits:
+- Cancel button or Esc
+- Undo
+H1-7: Shortcuts
+H1-8: Precise & constructive error messages
+H1-10: Help and documentation
+- Easy to search
+- Focused on the user’s task
+- List concrete steps to carry out but not too long
+H2-1: Visibility of system status
+H2-2: Match system and real world
+H2-3: User control and freedom
+H2-4: Consistency and standards
+H2-5: Error prevention
+- Don't allow typing of invalid input + Describe input clearly
+H2-6: Recognition rather than recall
+H2-7: Flexibility and efficiency of use
+- Accelerators, Mneumonics, macros
+H2-8: Aesthetic and minimalist design
+- No irrelevant information in dialogues
+H2-9: Help users recognize, diagnose and recover from errors
+- ![[Good UI Example.png]]
 #### The Process of Heuristic Evaluation
 ##### Pre-evaluation training
 ##### Evaluation
-- Individuals evaluate interface based on violations of heuristics then aggregate results
-- Work in 2 passes (Go through UI twice): Overview -> Details
-- Each evaluator produces own list of problems
+Individuals evaluate interface based on violations of heuristics then aggregate results
+Work in 2 passes (Go through UI twice): Overview -> Details
+Each evaluator produces own list of problems
 ##### Severity rating
-- 0 << 1 << 2 << 3 << 4
-- Not a problem << Cosmetic << minor << major << catastrophic
-- Combination of Frequency, Impact, Persistence (one time or repeating).
-- Should be calculated after all evaluations are in
-- Should be done independently by all judges
+0 << 1 << 2 << 3 << 4
+Not a problem << Cosmetic << minor << major << catastrophic
+Combination of Frequency, Impact, Persistence (one time or repeating).
+Should be calculated after all evaluations are in
+Should be done independently by all judges
 ##### Debriefing
-- Discuss outcome, characteristics with evaluators, observers, and team members
-- Suggest solutions
-- Assess difficulty to fix
-- A brainstorming session => Little criticism until end of session
+Discuss outcome, characteristics with evaluators, observers, and team members
+Suggest solutions
+Assess difficulty to fix
+A brainstorming session => Little criticism until end of session
 #### Number of Evaluators
-- Depends on market for product: popular products => high support cost for small bugs
-- 3 - 5 evaluators find ~ 75% of usability problems
-- Make sure it is cheaper than user testing
+Depends on market for product: popular products => high support cost for small bugs
+3 - 5 evaluators find ~ 75% of usability problems
+Make sure it is cheaper than user testing
 ## Conceptual model extraction
 - Show users static images of the prototype and ask them to explain the function of each element, how they would perform a particular task.
 - Needs: Initial conceptual model (first time) & Formative conceptual model (later)

@@ -109,7 +109,7 @@ Where $\alpha_{u}=-k_{u}f$ and $\alpha_{v}=k_{v}\sin \theta f$ and $\gamma=-k_{u
 ## External model $T_{o}^c$
 The external model (or camera pose) represents rotation and translation from $R_{o}$ to $R_{c}$:
 $$
-T_{o}^c=
+T_{o}^c=R[I|-C]=
 \begin{bmatrix}
 r_{11} & r_{12} & r_{13} & t_{x} \\
 r_{21} & r_{22} & r_{23} & t_{y} \\
@@ -127,4 +127,5 @@ $$
 $$
 M=M_{int}M_{ext}=T_{c}^eT_{o}^c
 $$
+To calculate the camera parameters from the cells in $M$, we could take their dot and cross products (e.g. $m_{1}\times m_{2},m_{1}\cdot m_{2}$). Recall that the rotation vectors are orthogonal and unit length so dot product of same direction is scalar 1 and cross product of orthogonal direction is a vector perpendicular.
 # [[Affine Camera Models]]

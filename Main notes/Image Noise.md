@@ -9,6 +9,7 @@ Denoising is often used in the preprocessing step, before any [[Image Segmentati
 - Statistics & [[Machine Learning]] are used for modeling & dealing with noise:
   *Hard assignment* to *disjoint intervals* (i.e. dividing the intensity range $[0\dots255]$ into $[0\dots 50], [51\dots 150],\dots$ to represent an object) is replaced by *probabilistic/statistical assignment* to *overlapping clusters*
   => *Intensity mixtures*: Intensities, instead of "either/or" of hard assignment, can be in many clusters at the same time, better capture real world.
+- [[Image Smoothing Filters]].
 # Noise models
 ## Additive $L=L_{0}+n$
 Optical, thermal imaging, quantization noise: IR.

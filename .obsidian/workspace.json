@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "891c064ea9c2abb3",
+        "id": "966b6a89c392b485",
         "type": "tabs",
         "children": [
           {
-            "id": "90a374c5c53235b6",
+            "id": "29b4f6d4fa3a611b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rough notes/Differential Geometry.md",
+                "file": "Main notes/Scale Invariant Feature Transform (SIFT) Detector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Differential Geometry"
+              "title": "Scale Invariant Feature Transform (SIFT) Detector"
             }
           }
         ]
@@ -53,9 +53,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "taylor",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 - Rough notes/Histogram-based Image Segmentation.md",
+                "file": "Main notes/Scale Invariant Feature Transform (SIFT) Detector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Histogram-based Image Segmentation"
+              "title": "Backlinks for Scale Invariant Feature Transform (SIFT) Detector"
             }
           },
           {
@@ -165,48 +165,48 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "graph:Open graph view": true,
-      "obsidian-excalidraw-plugin:Create new drawing": true
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "90a374c5c53235b6",
+  "active": "29b4f6d4fa3a611b",
   "lastOpenFiles": [
-    "Main notes/VR Tasks.md",
-    "Main notes/Virtual Reality.md",
-    "Main notes/Variance and Covariance.md",
-    "Main notes/Salient Information (Visual Feature).md",
-    "Main notes/Quaternion.md",
-    "Main notes/PDF.md",
-    "Main notes/Image Understanding Paradigms.md",
-    "Main notes/Image Segmentation & Classification.md",
-    "Main notes/Image Processing Model.md",
-    "Main notes/Image Processing.md",
-    "Main notes/Image Noise.md",
-    "Main notes/Image Histogram.md",
-    "Main notes/Human-Computer Interaction.md",
-    "Main notes/Homogenous Coordinates.md",
-    "Main notes/History of Virtual Reality.md",
-    "Main notes/Histogram-based Image Segmentation.md",
-    "Main notes/Global Image Enhancement.md",
-    "Main notes/Fourier Transform.md",
-    "Main notes/Fast Fourier Transform.md",
-    "Main notes/Extended Reality.md",
-    "Main notes/Digital Media Contents & Data representation.md",
-    "Main notes/Convolution.md",
-    "Main notes/Color-based Image Segmentation.md",
-    "Main notes/Camera Models.md",
-    "Main notes/Camera Modelisation.md",
-    "Main notes/Camera Model Parameters.md",
-    "Others/Attachments/Affine Camera Models.png",
-    "Others/Attachments/Camera Distortion.png",
-    "Others/Attachments/Image Distortion.png",
-    "Others/Attachments/Camera Model.png",
-    "Others/Attachments/Design Thinking Apple.png",
-    "Others/Attachments/History of VR.png",
-    "Others/Attachments/Visual Augmentations.png",
-    "Others/Attachments/Reality - Virtuality Continuum.png",
-    "Others/Attachments/Bimodal Histogram.png",
+    "Main notes/Interest Point Detection and Matching.md",
+    "Rough notes/Image Corner Detection.md",
+    "Rough notes/Interest Point Matching.md",
+    "Main notes/Image Matching.md",
+    "Rough notes/Interest Point Detection and Matching.md",
+    "Main notes/3D Reconstruction.md",
+    "Main notes/Scale Invariant Feature Transform (SIFT) Detector.md",
+    "Main notes/Image Object Tracking.md",
+    "Main notes/Recognition and 3D Registering.md",
+    "Main notes/Template Matching.md",
+    "Main notes/Affine Camera Models.md",
+    "Main notes/Taylor Expansions.md",
+    "Main notes/Image Edge Detection Using Finite Difference Filters.md",
+    "Main notes/Autocorrelation.md",
+    "Main notes/Confusion Matrix.md",
+    "Main notes/Image Edge Detection Using Canny-Deriche.md",
+    "Main notes/ROC Curve.md",
+    "Rough notes/Quantitative Evaluation.md",
+    "Rough notes/Qualitative Evaluation.md",
+    "Main notes/VR Design Components.md",
+    "Main notes/Visualization Technologies.md",
+    "Main notes/User Research Techniques.md",
+    "Rough notes/User Research Interpretation.md",
+    "Main notes/User Research.md",
+    "Main notes/The H (Human) in HCI.md",
+    "Main notes/Sound Technologies.md",
+    "Others/Attachments/Haptic Force.png",
+    "Others/Attachments/Pasted image 20260105073547.png",
+    "Others/Attachments/Pasted image 20260105072703.png",
+    "Others/Attachments/Pasted image 20260105072631.png",
+    "Others/Attachments/Sight-based Design.png",
+    "Others/Attachments/Tangible Interface.png",
+    "Others/Attachments/Pasted image 20260104173103.png",
+    "Others/Attachments/Illuminating Clay.png",
+    "Others/Attachments/Benford Classification.png",
+    "Others/Attachments/Remote Manipulation.png",
     "1 - Rough notes/Untitled.base",
-    "Others/Attachments/Local neighbors.png",
     "1 - Rough notes/Untitled 1.base",
     "Main notes",
     "Others/Templates",

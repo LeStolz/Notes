@@ -95,7 +95,7 @@ Intuitively, we can understand it as:
 1. Project all points onto a plane parallel to the image plane and goes through the object's origin. Thus, good when depth is large.
 2. Use normal perspective projection on those points.
 # Para-perspective
-We could approximate this more accurately by approximating $\frac{1}{\xi+1}$ when $\xi$ is near $0$ but not exactly $0$ like weak perspective using the 1st order Taylor expansion:
+We could approximate this more accurately by approximating $\frac{1}{\xi+1}$ when $\xi$ is near $0$ but not exactly $0$ like weak perspective using the 1st order [[Taylor Expansions]]:
 $$
 \frac{1}{\xi+1}\approx 1-\xi
 $$

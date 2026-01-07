@@ -2,12 +2,13 @@
 
 #Computer-Vision
 
+> Divide image into meaningful regions (ex: foreground & background, person & not person,...)
 # Preprocessing
 Must always [[Image Noise|preprocess]] first to reduce noise.
 # Image segmentation
 Finding a partition of the data domain (image grid) $\Omega$ into a collection $R_{i}\ | \ 0\leq i\leq n$ of connected, non-overlapping subsets. $R_{0}$ is background. $\partial R_{i}$ is boundary of $R_{i}$.
 
-Images can be segmented by detecting regions, edges, or hybrid.
+Images can be segmented by detecting regions, [[Image Edge Detection|edges]], or hybrid.
 
 Can be used in industrial imaging, computer-aided design, or diagnosis.
 

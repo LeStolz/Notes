@@ -14,6 +14,8 @@ A multidisciplinary field (Art, CS, Business, Social, Engineering, Informatics, 
 - How?: Envision and realize future HCI.
 - Subfields: H-Robot-I, H-AI-I, H-Building-I, Animal-C-I.
 
-The core of HCI is the [[The H in HCI|Human]] and the [[Design Thinking]] process.
+The core of HCI is the [[The H (Human) in HCI|Human]] and the [[Design Thinking (User-centered Design)]] process.
 # Human-Computer Interface
 Hardware and software devices allowing a user to *interact* with an *interactive* system.
+# Objective
+To allow user to perform tasks efficiently, productively, happily, safely, and can learn the system quickly by adapting our solution to the user and not vice versa. The HCI cycle always adapts to the current situation.

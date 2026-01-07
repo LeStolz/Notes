@@ -44,16 +44,16 @@ In general, we expect:
 - A true conviviality in the [[Human-Computer Interaction]] relationship.
 - An increase in quality/reliability of simulation, design, and control of system.
 - Ability to master more complex systems than those handled by conventional means.
-## Pseudo-natural Immersion
+## [[Pseudo-natural Immersion]]
 Due to sensor-motor biases, we can't be completely natural in VE.
 In VR, we re-exploit real-world behaviors => *Schemes*: Mental organisation of of actions for classes of situations => Unconscious without much effort.
 Example: Grabbing object in VR, not totally natural because no weight, not tangible.
-# Presence
+## Presence
 Immersion => Presence <= 3 illusions: Place, Plausibility, Embodiment.
 Subjective, context-dependant.
-# [[Modeling]] and [[Visual Feedback]]
+## [[VR Design Components]]
 
-# [[Application and Research of Virtual Reality]]
+# [[Application and Research of Immersive Technologies]]
 
 # Related domains
 Computer Science, Mechanics, Robotics, AI, Computer Vision,...
