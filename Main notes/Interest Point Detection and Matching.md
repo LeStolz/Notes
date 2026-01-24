@@ -22,6 +22,12 @@ Feature of interest should be distinctive, stable and efficient to detect / matc
 *Edges* cannot be used because not distinctive (not invariant to spatial transforms): Matching ambiguity along edge tangent:
 ![[Edges are not spatial transform-invariant.png]]
 
-[[Image Corner Detection|Corners]] fit these descriptions but are not invariant to scaling => [[Scale Invariant Feature Transform (SIFT) Detector]].
+[[Image Corner Detection|Corners]] fit these descriptions but are not invariant to scaling => [[Scale Invariant Feature Transform (SIFT) Detector and Descriptor]].
 # Description
 After extracting interest points, find, normalize, and transform interest patch around each key points into invariant local coordinates, then compute the patch local descriptor (similarity metric to match).
+
+Can store neighbor intensities or gradients (patches) => Not rotation-invariant.
+
+Matching between 2 interest points is by finding its nearest neighbor in description space. However, using only descriptor is bad due to too much individual invariance, deformation, local appearance is ambiguous => Use local spatial relation verification to verify after match:
+- Semi-local constraints: neighbors of a point have to match and angles correspond.
+- Global constraints: all matches must be consistent with a global [[3D Transformation Matrices]] using [[Image Processing|Calibration]] or [[RANSAC]].

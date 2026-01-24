@@ -12,13 +12,13 @@ Not all features are relevant, so we:
 - Enveloppes (keep the overall shape of data instead of all of raw data, better recognition rate but slower): [[Genetic Algorithms (GA)]].
 - > Adaptive Feature Selection (AFS) > Fast, can adapt to the DB, and can select best features with 2 steps: Learn with [[Support Vector Machine (SVM)]] then use [[Linear Discrimination Analysis]]:
 	- Each image set $X_{i}$ gives feature set $M_{i}$ then use SVM to learn and find the recognition rate which is the performance of this set $Per(M_{i})$.
-	- Choose the best ones which creates a subspace which maximize class separability.
+	- Choose the $i$ best ones which maximize [[Fischer Criterion (Discriminant Ratio)]] between them and the $n - i$ worst ones.
 # [[Machine Learning|Learning]]
 Run PCA first.
 ## Hierarchical Multi-Model Classification Method
 Since database is heterogeneous, using a single model based on some features is not good enough, so we use many models based on different features => non-linear, flexible combinaison of features. The test images are then tested iteratively through a hierarchy of models, ordered by their increasing training performance so the prediction is refined progressively. The method can also provide dynamic feature weighting based on the query image.
 
-If 2 consecutive hierarchical level classify the image to be the same class, we are good, if there is conflict, we use [[Nearest Cluster Center (NCC)]] to classify the query image Iq in the feature space Fm, through the two evaluated classes Ci and Cj. We can also use SLA.
+If 2 consecutive hierarchical level classify the image to be the same class, we are good, if there is conflict, we use [[Nearest Cluster Center (NCC)]] to classify the query image Iq in the feature space Fm, through the two evaluated classes Ci and Cj. We can also use SLA: Calculate, for each feature, a score for each class measuring how close it is to that class. Sum it up, get the biggest one. "which class matches better overall?".
 
 This classification process is called generalization, affected by the ordering of the models: increasing (normal), decreasing, max-models (class chosen by most models).
 

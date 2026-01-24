@@ -56,4 +56,4 @@ Since more similarity means smoother ($\det(H_{\mathbf{x}})$ low) => opposite is
 => Also detect textures => Denser, lower localization accuracy because of higher order derivatives.
 
 Algorithm is same as Harris but with $H(\mathbf{x})>t_{\det}$.
-# [[Scale Invariant Feature Transform (SIFT) Detector]]
+# [[Scale Invariant Feature Transform (SIFT) Detector and Descriptor]]
