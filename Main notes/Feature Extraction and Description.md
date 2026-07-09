@@ -1,6 +1,6 @@
 2026-01-01 11:50
 
-#Computer-Vision  #Image-Recognition 
+#Computer-Vision
 
 # Features
 Color: average (RGB, HSV, HMMD, YCrCb), [[Image Histogram|histogram]], autocorrelogram (Given a pixel of a certain color, how likely is it to find another pixel of the same color at a specific distance?).

@@ -1,6 +1,6 @@
 2026-01-01 10:13
 
-#Computer-Vision  #Image-Recognition 
+#Computer-Vision
 # Number of protrusions and depressions
 Calculating first derivative of each point along the parameterized curve then check sign change at extrema, can test neighboring pixels. Sensible to noise. 
 # Curvature

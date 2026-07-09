@@ -1,6 +1,6 @@
 2025-12-31 18:34
 
-#Computer-Vision  #Image-Recognition 
+#Computer-Vision
 
 > A method for finding contour in a noisy image.
 
@@ -23,4 +23,4 @@ To make the points move toward the actual contours, we move them in the directio
 
 In the end, we want all the points to be on the edge, so the sum of the gradient squared of all points should be maximized.
 
-We can also add regularization terms to force smoothness of the contour (least perimeter), or rubber-band-like (to avoid noises).
+We can also add [[Generalization and Regularization]] terms to force smoothness of the contour (least perimeter), or rubber-band-like (to avoid noises).

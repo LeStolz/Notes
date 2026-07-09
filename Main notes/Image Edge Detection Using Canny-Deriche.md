@@ -9,7 +9,7 @@ We can detect this by applying a filter with kernel $K$ which has a high magnitu
 $$\phi_{K}(L)(\mathbf{x_{0}})=\int K(\mathbf{x}-\mathbf{x_{0}})L(\mathbf{x})d\mathbf{x}$$
 But what is $K$? It should respect some performance criteria expressed in functions of kernel $K$ and its derivatives:
 ## Good detection (High specificity)
-> Low probability of [[Confusion Matrix|false alarms]] => maximize Signal-Noise Ratio:
+> Low probability of [[Confusion Matrix and ROC|false alarms]] => maximize Signal-Noise Ratio:
 
 $$\Sigma(K)= \frac{\rho \int K(x)dx}{n_{0} \left( \int K(x)^2dx \right)^{1/2}}$$
 ## Good localization (High accuracy)

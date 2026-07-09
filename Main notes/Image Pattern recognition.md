@@ -1,6 +1,6 @@
 2025-11-23 23:31
 
-#Computer-Vision  #Image-Recognition
+#Computer-Vision
 
 ![[Image Classification System|600]]
 

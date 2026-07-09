@@ -17,7 +17,7 @@ Feature of interest should be distinctive, stable and efficient to detect / matc
 - Robustness properties (repeatability + accuracy):
 	- Sampling & quantization (digital image acquisition, coding scheme).
 	- Noise (sensor model).
-- Performance measured by [[Confusion Matrix|few failures]] and computation complexity.
+- Performance measured by [[Confusion Matrix and ROC|few failures]] and computation complexity.
 
 *Edges* cannot be used because not distinctive (not invariant to spatial transforms): Matching ambiguity along edge tangent:
 ![[Edges are not spatial transform-invariant.png]]

@@ -24,7 +24,7 @@ Partial Solution:
 Low cost methods to gather usability problems
 Qualitative:
 - Observe interactions 
-- Gather explanations
+- Gather explanations (through interviews or our reasoning)
 - Produces description
 - Anecdotes, transcripts, problem areas, critical incidents…
 Quantitative:
@@ -178,6 +178,7 @@ Make sure it is cheaper than user testing
 	- Make sure the equipments work
 	- Make clear when the users move from a task to another
 - Post-Interview & Questionnaire
+	- Be curious but avoid leading questions!
 	- System usability scale. Sum of scores of all questions * 2.5. 68 is average.
 	- NASA task load index: https://humansystems.arc.nasa.gov/groups/TLX/downloads/TLXScale.pdf rates perceived workload in order to assess performance
 	- [User Interface Usability Evaluation with Web-Based Questionnaires (garyperlman.com)](https://garyperlman.com/quest/)

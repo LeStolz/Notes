@@ -3,7 +3,7 @@
 #Computer-Vision
 
 # From pixels to semantics
-![[Image Processing Pipeline|600]]
+![[Image Processing Pipeline|600x300]]
 1. Image acquisition: image sensor => [[Digital Media Contents & Data representation|Image data]]
 2. Image understanding: partition image data into homogeneous (similar) spatiotemporal regions
 3. Computer vision: abstraction into 3D objects + spatiotemporal relationships

@@ -25,3 +25,5 @@ For detection:
 $$
 F = 2 \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} 
 $$
+# ROC
+ROC is plot of $TPR$ (y-axis) vs $FPR$ (x-axis) *where each point corresponds to a threshold value*. The area under the curve is the probability of $TP$ and is used to measure how good a classifier is.

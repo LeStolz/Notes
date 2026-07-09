@@ -7,6 +7,7 @@
 - Performance = speed + accuracy + learnability: Need to be testable.
 - Context: Need to decide what subset to test.
 ## 2. Determine variables 
+- Common variables: Task, time, performance, user satisfaction, error rate, time to learn...
 - Independent variable (IV): Tasks & Factors manipulated in the experiment – Have multiple levels (ranges of values):
 	- Primary
 	- Secondary: Other interesting factors you want to manipulate in the experiment to answer the main question in a richer way.
@@ -82,6 +83,15 @@
 4. Debriefing
 	- Inform users of the goal
 	- Answer
+### Metrics
+#### Questionnaire
+- Likert scale question: Typically a five, seven or nine point agreement scale used to measure respondents’ agreement with a variety of statements.
+- Ranking questions for experiments comparing different interfaces.: \_\_#1 \_\_#2 \_\_#3
+- Open-ended questions: users freely comment about their experience
+#### Automatic
+Eye tracking,..., conformance,...
+#### Expert-based
+Inspection, walkthroughs, potential problems: heuristic evaluation, cognitive walkthrough.
 ### The Importance of Practice Trials
 - Always, Always, Always Pilot Study First!!!!!
 - The nicher the product, the more practice trials are needed

@@ -1,6 +1,6 @@
 2026-01-01 11:09
 
-#Computer-Vision  #Image-Recognition 
+#Computer-Vision
 
 > To evaluate how well a model separate different classes. It measures the ratio between inter- and intra- class separation.
 

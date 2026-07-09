@@ -1,6 +1,6 @@
 2026-01-01 15:15
 
-#Computer-Vision  #Image-Recognition 
+#Computer-Vision
 
 > [[Interest Point Detection and Matching]] that is isometry, scale, rotation, POV, and lighting-invariant.
 

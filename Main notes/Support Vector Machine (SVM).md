@@ -1,6 +1,6 @@
 2026-01-01 14:58
 
-#Machine-Learning  #Image-Recognition 
+#Machine-Learning
 
 > Draw a hyperplane which best separate classes (the hyperplane's distance to any point in any class is furthest away). If the problem is not linearly separable, SVM transform the data to a higher dimension.
 
@@ -13,7 +13,7 @@ If the data is not linearly separable, we perform a transformation on the data u
 $$
 f(x)=\text{sign}\left( \sum_{i=1}^N y_{i}\alpha_{i}\text{Kernel}(x,x_{i})+b\right)
 $$
-Where $(x_{i},y_{i})$ are training samples and the weight $\alpha_{i}$ learnt.
+Where $(x_{i},y_{i})$ are [[Model Development Cycle|training samples]] and the weight $\alpha_{i}$ learnt.
 # Multiple classes
 In the multiple class case, we can use one-vs-all strategy where we train $N$ binary SVM, each treating one class as positive and the rest negative. During testing, a datapoint is evaluated by all SVMs and assigned to the class with the highest response. This has high training complexity since each SVM is trained using all training samples.
 

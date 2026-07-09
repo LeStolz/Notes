@@ -1,6 +1,6 @@
 2025-12-31 20:22
 
-#Computer-Vision  #Image-Recognition 
+#Computer-Vision
 
 > Extracting informations on the forms in the image -> Descriptors <- which have to be invariant to translation, rotation, and homothety (plane similarities), and unique:
 
@@ -36,4 +36,4 @@ Area, Perimeter,... can be used to build geometric descriptors. But these are no
 # [[Morphographic Descriptions|Morphographic Descriptor]]
 # Evaluation
 DB => Train, Test sets with same number of each class in it.
-We can test all combination of descriptors and learning models to see what is best using [[ROC Curve]] or [[Fischer Criterion (Discriminant Ratio)]].
+We can test all combination of descriptors and learning models to see what is best using [[Model Development Cycle|ROC Curve]] or [[Fischer Criterion (Discriminant Ratio)]].
